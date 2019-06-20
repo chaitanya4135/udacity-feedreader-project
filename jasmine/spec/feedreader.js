@@ -81,7 +81,18 @@ describe("The menu:",function(){
                expect(body.hasClass('menu-hidden')).toBeTruthy();
             });
           });
-
+// it('menu name',function(){
+//   expect(document.body).toHaveClass("menu-hidden");
+//   });
+//
+//           var menuIcon=document.querySelector(".menu-icon-link");
+//           it('menu icon',function(){
+//             menuIcon.click();
+//             expect(document.body.className).not.toContain('menu-hidden');
+//             menuIcon.click();
+//             expect(document.body.className).toContain('menu-hidden');
+//           });
+// });
 describe("Initial Enteries",function(){
 
   beforeEach(function(done) {
@@ -102,6 +113,15 @@ describe("Initial Enteries",function(){
          });
 
     });
+
+        //  beforeEach(function(done){
+        //    loadFeed(0,done);
+        //  })
+        //  it('initial entrie should be greater than zero',function(){
+        //    var d=document.querySelector(".feed").getElementsByClassName('entry').length;
+        //    expect(d).toBeGreaterThan(0);
+        //  });
+        //  });
 
          describe('new feed selection',function(){
         /* TODO: Write a test that ensures when a new feed is loaded
